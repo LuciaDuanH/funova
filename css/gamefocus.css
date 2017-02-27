@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+    #slides {
+      display: none;
+	  max-width:100% !important;
+		height:auto !important;
+    }
+    #slides .slidesjs-navigation {
+	  position:absolute;
+      top:40%;
+	  width:40px;
+	  height:72px;
+	  background-image:url(../images/focus_btn.png);
+	  background-repeat:no-repeat;
+	  z-index:99999;}
+
+    #slides .slidesjs-previous {
+	  left:0;
+      float:left !important;
+	  background-position:0 0;}/*9.20改*/
+    #slides .slidesjs-previous:hover {background-position:0 -74px;}/*9.20改*/
+    #slides .slidesjs-next {
+	  right:0;
+      float:right !important;
+	  background-position:-40px 0;}/*9.20改*/
+    #slides .slidesjs-next:hover {background-position:-40px -74px;}/*9.20改*/
+    .slidesjs-pagination {
+     /* margin: 6px 0 0;
+      float: right;*/
+      list-style: none;
+	  position:absolute;
+	  left:45%; /* 10.14改*/
+	  bottom:10%;  /* 9.16改*/
+	  height:50px;
+	  z-index:99;
+	  width:15%;}
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 2%;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 20px;
+      height: 0;
+      padding-top: 20px;
+      background-image: url(../images/pagination.png);
+      background-position: -37px 0 ;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -37px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -37px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+ 
+
+    #slides {
+      display: none;
+	  position:relative;
+	  left:0;
+	  top:0;}
+    .container {
+      margin: 0;
+	  width:100%;}
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      .container {width: 100% !important;}
+	  .slidesjs-pagination {display:none;}
+    /* For smartphones */
+ 
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 991px) {
+      .container {
+        width: 100% !important;
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 100% !important;
+      }
+    }
+	@media (min-width: 1441px){
+
+	}
+
+

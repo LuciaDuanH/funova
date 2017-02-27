@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="zh-CN" xmlns:wb="http://open.weibo.com/wb">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>珠海乐趣|申请职位页</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/font.css" rel="stylesheet" />
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/li.css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+<![endif]--> 
+
+</head>
+
+<body style="background:#f1f1f1;">
+<!--头部-->
+<div class="container-fluid plr0">
+	<div class="row" style="margin-left:0; margin-right:0;">
+    	<div class="col-md-2 col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        	<div class="mxw" >
+            	<div class="col-xs-3 hidden-sm hidden-md hidden-lg"></div>
+            	<div class="col-xs-6 col-sm-5 col-md-7 col-lg-8">
+            		<a href="index.html"><img src="images/logo1.png" class="re_logo img-responsive" alt="珠海乐趣"/></a>
+            	</div>
+            	<div class="col-sm-7 col-md-5 col-lg-4 hidden-xs">
+                    <ul class="join_nav fr">
+                        <li><a href="recruit.html"  >首 页</a></li>
+                        <li><a href="recruit_list.html" class="active" >乐趣招聘</a></li>
+                        <li><a href="group.html" >人在乐趣</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-3 visible-xs-block hidden-sm hidden-md hidden-lg">
+                <div class="fr"  style=" margin:20px -15px 0px 0px">
+                  <a class="" role="button" data-toggle="collapse" href="#remenu" aria-expanded="false" aria-controls="remenu" style="display:block; width:100%; height:100%;">
+                	<span class="glyphicon glyphicon-menu-hamburger heise20"></span>
+                  </a>
+                </div>
+                </div>
+            </div>           
+        </div>
+        <div class="col-md-2 col-lg-2"></div>
+    </div>
+    <div class="collapse wid100" id="remenu">
+               <ul class="menu wid100">
+                  <a href="recruit.html" ><li>招聘首页</li></a>
+                  <a href="recruit_list.html" ><li>乐趣招聘</li></a>
+                  <a href="group.html"><li>人在乐趣</li></a>
+              </ul>   	
+            </div>
+</div>
+<div class="join_banner">
+	<img src="images/recruit_banner.jpg" class="img-responsive" />
+</div>
+<!--主体内容-->
+<div class="content container-fluid">
+	<div class="row">
+    	<div class="col-md-2 col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        	<div class="mxw">
+        	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                <div class="re_show_main fl wid100">
+                    <div class="title">
+                        <span>JAVA后端程序开发</span>
+                        <span class="b2shen18 ts2">Urgent jobs</span>
+                        <div class="b2 b2_blue" ></div>
+                        
+                        <p class="way shen149f">
+                            <a href="recruit.html">乐趣招聘</a>>
+                            <a href="recruit_list.html">职位列表</a>>
+                            <a href="recruit_show.html">JAVA后端程序开发</a>
+                        </p>
+                     </div>
+  
+                    <form class="form1">
+                	<table  border="0">
+                	  <tr>
+                	    <td ><span class="reds">*</span>姓 名：</td>
+                	    <td ><input type="text" id="name" /></td>
+              	    </tr>
+                	  <tr>
+                	    <td><span class="reds">*</span>性 别：</td>
+                	    <td>
+                        <label for="boy">
+                	      <input type="radio" id="boy" name="sex" checked/>男
+                	    </label>
+                        <label for="girl">
+                            <input type="radio" id="girl" name="sex"/>女
+                        </label></td>
+              	    </tr>
+                	  <tr>
+                	    <td><span class="reds">*</span>出生日期：</td>
+                	    <td>
+                        	<input type="text" name="birth">
+                        </td>
+              	    </tr>
+                	  <tr>
+                	    <td><span class="reds">*</span>最高学历：</td>
+                	    <td>
+                        	<select name="xueli">
+                            	<option>请选择最高学历</option>
+                                <option>不限</option>
+                                <option>高中</option>
+                                <option>中专</option>
+                                <option>大专</option>
+                                <option>本科</option>
+                                <option>硕士</option>
+                                <option>博士及以上</option>
+                            </select>
+                        </td>
+              	    </tr>
+                	  <tr>
+                	    <td><span class="reds">*</span>工作年限：</td>
+                	    <td>
+                             <select name="nianxuian">
+                            	<option>请选择工作年限</option>
+                                <option>应届毕业生</option>
+                                <option>1年以下</option>
+                                <option>1-3年</option>
+                                <option>3-5年</option>
+                                <option>5年以上</option>
+                            </select>                        
+                        </td>
+              	    </tr>
+                	  <tr>
+                	    <td><span class="reds">*</span>目前月薪：</td>
+                	    <td>
+                         	<select name="xinshui">
+                            	<option>请选择目前月薪</option>
+                                <option>1500以下</option>
+                                <option>1500-1999</option>
+                                <option>2000-2999</option>
+                                <option>3000-4499</option>
+                                <option>4500-5999</option>
+                                <option>6000-7999</option>
+                                <option>8000-9999</option>
+                                <option>10000以上</option>
+                            </select>                       	
+                        </td>
+              	    </tr>
+                	  <tr>
+                	    <td><span class="reds">*</span>到岗时间：</td>
+                	    <td>
+                        	<select name="daogang">
+                            	<option>请选择到岗时间</option>
+                                <option>三天内</option>
+                                <option>一周内</option>
+                                <option>三周内</option>
+                                <option>一个月内</option>
+                                <option>待定</option>
+                            </select>
+                        </td>
+              	    </tr>
+                	  <tr>
+                	    <td><span class="reds">*</span>上传简历：</td>
+                	    <td>
+                        	<input type="text" name="resume" /><button type="button" class="download">上传</button>
+                        </td>
+              	    </tr>
+              	  </table>
+                	<p>&nbsp;</p>
+                </form>
+                            <div class="job_apply">               
+                                <button type="submit" class="btn btn-primary submit ta-c fl">申请职位</button>                         
+                                <div class="fenxiang fl">
+                                <a href="recruit_list.html">返回职位列表</a>           
+                                </div>
+                            </div>
+              </div>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 plr0">  
+                <div class="side fl">
+                    <div class="main">
+                        <div class="title">
+                            <span>急聘职位</span>
+                            <span class="b2shen18 ts2">Urgent jobs</span>
+                            <div class="b2" ></div>
+                        </div>
+                        <ul class="ul_content">
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                        </ul>
+                    </div>
+                    <div class="main">
+                        <div class="title">
+                            <span>同类职位</span>
+                            <span class="b2shen18 ts2">Similar Positions</span>
+                            <div class="b2" ></div>
+                        </div>
+                        <ul class=" ul_content">
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                            <li><a href="#">【开发类】JAVA后端程序</a></li>
+                        </ul>
+                    </div>
+                    <div class="main">
+                        <div class="title">
+                            <span>联系我们</span>
+                            <span class="b2shen18 ts2">Contact Us</span>
+                            <div class="b2" ></div>
+                        </div>
+                        <ul class=" ul_content">
+                            <li>手机号：1326457878</li>
+                            <li>email：6457878@qq.com</li>
+                            <li>地址：河南洛阳</li>
+                        </ul>
+                    </div>                       
+                </div>
+            </div>       
+        	</div>
+        </div>
+        <div class="col-md-2 col-lg-2"></div>
+    </div>
+</div>
+<!--底部-->
+<div class="container-fluid footer refooter">
+<div class="pc1280">
+<!--<div class="row kongbottom"></div> 9.22注释-->
+<div class="row mt30 mb30">
+<div class="col-lg-1 col-md-1 hidden-xs"></div>
+<div class="col-lg-2 col-md-2 col-sm-3 hidden-xs"><a href="#"><img src="images/logo12.png" class="img-responsive"/></a></div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<ul class="ta-l bai12c banquan">
+<li>
+<a href="#" class="hrefs" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.funova.com/');"><span>设为首页</span></a>
+<a href="javascript:window.external.AddFavorite('http://www.funova.com/','珠海乐趣科技')"><span>加入收藏</span></a>
+<!--<a href="http://weibo.com/5310046714" target="_blank"><span>公司微博</span></a>-->
+<a type="button" class="" data-toggle="modal" data-target=".bs-example-modal-sm"><span>公司微信</span></a>
+<a href="game.html"><span>产品中心</span></a>
+<a href="news.html"><span>新闻中心</span></a>
+<a href="contact.html"><span>联系我们</span></a>
+<a href="join.html"><span>加入我们</span></a>
+</li>
+<li>Copyright @ 2012-2014珠海乐趣科技有限公司 All right reserved  粤ICP备14065043号</li>
+<li>技术支持:<a href="http://www.chinalooke.com" target="_blank">中原洛科</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<ul>
+<li class="lh36">
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+</li>
+<li class="lh36"><iframe id="previewmc" src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=skailun&style=5&t=1335772286433&f=1" width="138" height="24" frameborder="0" scrolling="no" allowtransparency="true" style="margin:0 auto;" class="l"></iframe>
+
+<span class="l"><wb:follow-button uid="5310046714" type="red_2" width="136" height="24"></wb:follow-button></span></li>
+</ul>
+<!--<a href="#">
+<img src="images/wlogo2.png" class="img-responsive"/>
+</a> 9.22注释-->
+</div>
+<!--<div class="col-lg-1 col-md-1 hidden-xs"></div>-->
+</div>
+<!--<div class="row mod mt50">
+<div class="col-lg-1 col-md-1 hidden-xs"></div>
+<div class="jiathis_style_32x32 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+<span class="l shenlan12 mt5 mR6">分享到</span>
+    <a class="jiathis_button_qzone"></a>
+    <a class="jiathis_button_tsina"></a>
+    <a class="jiathis_button_tqq"></a>
+    <a class="jiathis_button_renren"></a>
+    <a class="jiathis_button_kaixin001 hidden-xs"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+    <a class="jiathis_counter_style"></a>
+</div>
+<div class="col-lg-1 col-md-1 hidden-xs"></div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1348112174875283" charset="utf-8"></script>
+
+</div>  9.22注释-->
+</div>
+</div>
+</body>
+</html>

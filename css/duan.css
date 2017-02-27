@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+.clearpadding{
+	padding:0;}
+/*pc1920大屏幕特殊样式*/
+
+.gp-content{
+
+  
+ /* margin:2% 10% 0 10%;	padding:1%;*/
+	height:1400px;
+
+	background:#FFF;}
+.gp-title{
+	margin:2%;
+	color:#F93;}
+.gp-table{
+	width:100%;
+	height:auto;
+}
+.gp-table tr{
+	width:100%;
+	height:6%;}
+.gp-table tr td{
+	width:23%;
+	height:6%;
+	border:#FFF 10px solid;}
+	
+.style1{
+	position:absolute; width:48%; height:24%; background:#F9C; top:4%; left:2%;}
+.style2{
+	position:absolute; width:23%; height:12%; background:#FC3;top:4%; left:51%;}
+.style3{
+    position:absolute; width:23%; height:18%; background:#F9C;top:4%; left:75%;}
+.style4{
+	position:absolute; width:23%; height:24%; background:#F9C;top:17%; left:51%;}
+.style5{
+	position:absolute; width:23%; height:18%; background:#9F3;top:23%; left:75%;}
+.style6{ 
+    position:absolute; width:24%; height:31%; background:#F9C;top:29%; left:2%;}
+.style7{
+	 position:absolute; width:23%; height:12%; background:#F69;top:29%; left:27%;}
+.style8{
+	 position:absolute; width:47%; height:18%; background:#F9C;top:42%; left:27%;}
+.style9{
+	 position:absolute; width:23%; height:31%; background:#F9C;top:42%; left:75%;}
+.style10{
+	position:absolute; width:24%; height:18%; background:#0CF;top:61%; left:2%;}
+.style11{
+	 position:absolute; width:23%; height:24%; background:#F9C;top:61%; left:27%;}
+.style12{
+	 position:absolute; width:23%; height:12%; background:#C69; top:61%; left:51%;}
+.style13{
+	 position:absolute; width:47%; height:24%; background:#F9C;top:74%; left:51%;}
+.style14{ 
+     position:absolute; width:24%; height:18%; background:#F9C;top:80%; left:2%;}
+.style15{
+	 position:absolute; width:23%; height:12%; background:#F69;top:86%; left:27%;}	
+	
+.lo-font{
+	color:#FFF;
+	font-size:18px;
+	text-align:center;
+	padding:5% 1%;}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*.style1{
+	position:absolute; width:535px; height:394px; background:#F9C; top:60px; left:20px;}
+.style2{
+	position:absolute; width:255px; height:193px; background:#F9C;top:60px; left:569px;}
+.style3{
+    position:absolute; width:255px; height:291px; background:#F9C;top:60px; left:838px;}
+.style4{
+	position:absolute; width:255px; height:388px; background:#F9C;top:270px; left:569px;}
+.style5{
+	position:absolute; width:255px; height:291px; background:#F9C;top:366px; left:838px;}
+.style6{ 
+    position:absolute; width:255px; height:566px; background:#F9C;top:470px; left:20px;}
+.style7{
+	 position:absolute; width:265px; height:188px; background:#F9C;top:470px; left:289px;}
+.style8{
+	 position:absolute; width:535px; height:363px; background:#F9C;top:673px; left:289px;}
+.style9{
+	 position:absolute; width:255px; height:546px; background:#F9C;top:673px; left:838px}
+.style10{
+	position:absolute; width:255px; height:259px; background:#F9C;top:1050px; left:20px;}
+.style11{
+	 position:absolute; width:255px; height:369px; background:#F9C;top:1050px; left:289px;}
+.style12{
+	 position:absolute; width:265px; height:167px; background:#F9C; top:1050px; left:559px;}
+.style13{
+	 position:absolute; width:535px; height:394px; background:#F9C;top:1236px; left:559px;}
+.style14{ 
+     position:absolute; width:255px; height:301px; background:#F9C;top:1326px; left:20px;}
+.style15{
+	 position:absolute; width:255px; height:192px; background:#F9C;top:1436px; left:289px;}*/
+@media (min-width: 992px){}
+
+/*平板特殊样式*/
+  @media (min-width: 768px) and (max-width: 991px) {
+.gp-content{
+    /*margin:6%;*/
+/*	padding:1%;*/
+	height:950px;
+	background:#FFF;
+
+}
+.lo-font{
+	color:#FFF;
+	font-size:14px;
+	text-align:center;
+	padding:3% 1%;}	
+/* .style1{
+	position:absolute; width:321px; height:236px; background:#F9C; top:40px; left:10px;}
+.style2{
+	position:absolute; width:153px; height:115px; background:#F9C;top:40px; left:341px;}
+.style3{
+    position:absolute; width:153px; height:174px; background:#F9C;top:40px; left:504px;}
+.style4{
+	position:absolute; width:153px; height:232px; background:#F9C;top:165px; left:341px;}
+.style5{
+	position:absolute; width:153px; height:174px; background:#F9C;top:224px; left:504px;}
+.style6{ 
+    position:absolute; width:153px; height:339px; background:#F9C;top:286px; left:10px;}
+.style7{
+	 position:absolute; width:158px; height:112px; background:#F9C;top:286px; left:173px;}
+.style8{
+	 position:absolute; width:321px; height:217px; background:#F9C;top:408px; left:173px;}
+.style9{
+	 position:absolute; width:153px; height:327px; background:#F9C;top:408px; left:504px}
+.style10{
+	position:absolute; width:153px; height:155px; background:#F9C;top:635px; left:10px;}
+.style11{
+	 position:absolute; width:158px; height:221px; background:#F9C;top:635px; left:173px;}
+.style12{
+	 position:absolute; width:153px; height:100px; background:#F9C; top:635px; left:341px;}
+.style13{
+	 position:absolute; width:316px; height:236px; background:#F9C;top:745px; left:341px;}
+.style14{ 
+     position:absolute; width:153px; height:180px; background:#F9C;top:800px; left:10px;}
+.style15{
+	 position:absolute; width:158px; height:115px; background:#F9C;top:866px; left:173px;}
+
+*/
+}       
+/*手机特殊样式*/
+@media (max-width: 767px) {
+.gp-content{
+margin:0;
+/*	padding:1%;*/
+	height:760px;
+	background:#FFF;
+
+	}
+	.lo-font{
+	color:#FFF;
+	font-size:12px;
+	text-align:center;
+	padding:2% 1%;}	
+/*.style1{
+	position:absolute; width:267px; height:197px; background:#F9C; top:40px; left:10px;}
+.style2{
+	position:absolute; width:127px; height:96px; background:#F9C;top:40px; left:282px;}
+.style3{
+    position:absolute; width:127px; height:145px; background:#F9C;top:40px; left:414px;}
+.style4{
+	position:absolute; width:127px; height:194px; background:#F9C;top:141px; left:282px;}
+.style5{
+	position:absolute; width:127px; height:145px; background:#F9C;top:190px; left:414px;}
+.style6{ 
+    position:absolute; width:127px; height:283px; background:#F9C;top:242px; left:10px;}
+.style7{
+	 position:absolute; width:135px; height:94px; background:#F9C;top:242px; left:142px;}
+.style8{
+	 position:absolute; width:267px; height:184px; background:#F9C;top:341px; left:142px;}
+.style9{
+	 position:absolute; width:127px; height:273px; background:#F9C;top:341px; left:414px}
+.style10{
+	position:absolute; width:127px; height:129px; background:#F9C;top:530px; left:10px;}
+.style11{
+	 position:absolute; width:135px; height:184px; background:#F9C;top:530px; left:142px;}
+.style12{
+	 position:absolute; width:127px; height:83px; background:#F9C; top:530px; left:282px;}
+.style13{
+	 position:absolute; width:260px; height:197px; background:#F9C;top:618px; left:282px;}
+.style14{ 
+     position:absolute; width:127px; height:150px; background:#F9C;top:664px; left:10px;}
+.style15{
+	 position:absolute; width:135px; height:96px; background:#F9C;top:719px; left:142px;}*/
+/*.style1{
+	position:absolute; width:160px; height:118px; background:#F9C; top:30px; left:10px;}
+.style2{
+	position:absolute; width:76px; height:58px; background:#F9C;top:30px; left:175px;}
+.style3{
+    position:absolute; width:76px; height:87px; background:#F9C;top:30px; left:256px;}
+.style4{
+	position:absolute; width:76px; height:116px; background:#F9C;top:93px; left:175px;}
+.style5{
+	position:absolute; width:76px; height:87px; background:#F9C;top:122px; left:256px;}
+.style6{ 
+    position:absolute; width:76px; height:169px; background:#F9C;top:155px; left:10px;}
+.style7{
+	 position:absolute; width:79px; height:55px; background:#F9C;top:155px; left:91px;}
+.style8{
+	 position:absolute; width:160px; height:109px; background:#F9C;top:215px; left:91px;}
+.style9{
+	 position:absolute; width:76px; height:163px; background:#F9C;top:215px; left:256px}
+.style10{
+	position:absolute; width:76px; height:78px; background:#F9C;top:329px; left:10px;}
+.style11{
+	 position:absolute; width:76px; height:110px; background:#F9C;top:329px; left:91px;}
+.style12{
+	 position:absolute; width:79px; height:50px; background:#F9C; top:329px; left:172px;}
+.style13{
+	 position:absolute; width:160px; height:118px; background:#F9C;top:384px; left:172px;}
+.style14{ 
+     position:absolute; width:76px; height:90px; background:#F9C;top:412px; left:10px;}
+.style15{
+	 position:absolute; width:76px; height:58px; background:#F9C;top:444px; left:91px;}*/
+}
